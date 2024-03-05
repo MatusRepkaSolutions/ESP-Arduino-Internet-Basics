@@ -2,21 +2,21 @@
 # Arduino/ESP to Websites – Easy Tutorials for Students to Learn How to Use Arduino with PHP
 
 ## Features
-- Basics about ESP32:
-	-How to boot ESP32
-	-How to connect ESP32 to the WiFi
-	-How to send requests to websites
-	-Easy ways to control ESP32 with a website
-	-How to use [PHPMailer](https://github.com/PHPMailer/PHPMailer) to send emails from Arduino
-	-Easy PHP/SQL/HTML tutorials corresponding with ESP
+- How to program
+	- 	How to boot ESP32
+	- 	How to connect ESP32 to the WiFi
+	- 	How to send requests to websites
+	- 	Easy ways to control ESP32 with a website
+	- 	How to use [PHPMailer](https://github.com/PHPMailer/PHPMailer) to send emails from Arduino
+	- 	Easy PHP/SQL/HTML tutorials corresponding with ESP
 - Communication between ESP32 and Arduino
 
 ## Pros
--Easy-to-use step-by-step guides for people who don't want to or have no time to spend numerous 
-hours studying set topics to get a small part of their bigger projects going.
--Are you building an autonomous car and you need it to be able to send emails, but you lack the 
-time to study ESP? Then just follow these simple tutorials.
--Easy to learn basics but also able to just copy+paste finished stuff into your bigger projects.
+- Easy-to-use step-by-step guides for people who don't want to or have no time to spend numerous hours 
+studying set topics to get a small part of their bigger projects going.
+- Are you building an autonomous car and you need it to be able to send emails, 
+but you lack the time to study ESP? Then just follow these simple tutorials.
+- Easy to learn basics but also able to just copy+paste finished stuff into your bigger projects.
 
 ## About me
 In my studies at the Slovak University of Technology, I came across numerous projects where the 
