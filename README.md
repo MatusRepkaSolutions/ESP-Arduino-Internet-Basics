@@ -1,5 +1,5 @@
 # RepkaCodes
-# STU-STU-Arduino/ESP to Websites – Easy Tutorials for Students to Learn How to Use Arduino with PHP
+# Arduino/ESP to Websites – Easy Tutorials for Students to Learn How to Use Arduino with PHP
 
 ## Features
 - Basics about ESP32:
