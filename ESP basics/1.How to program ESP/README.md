@@ -26,3 +26,8 @@ After you finished all the steps above, you are ready to program your ESP, all y
  <p align="center">
 <img src="https://github.com/MatusRepkaSolutions/ESP-Arduino-Internet-Basics/assets/162296215/9cd565ef-4adf-4193-8acb-b840c0d1e5bb" alt="boot and reset button">
 <p align="center">Boot and Reset button on ESP32.</p></p>
+
+## Choosing the right board
+
+ArduinoIDE is usually not going to recognize, what type of ESP are you running. You have to choose the right board manually, I recommend you to choose "ESP32 Dev Module".
+There is a very simple test code located in this folder, you don't need anything to run it, just your ESP and data cable.
