@@ -30,4 +30,4 @@ After you finished all the steps above, you are ready to program your ESP, all y
 ## Choosing the right board
 
 ArduinoIDE is usually not going to recognize, what type of ESP are you running. You have to choose the right board manually, I recommend you to choose "ESP32 Dev Module".
-There is a very simple test code located in this folder, you don't need anything to run it, just your ESP and data cable.
+There is a very simple test code located in this folder, you don't need anything to run it, just your ESP and data cable. You can try if everything works with [this](https://github.com/MatusRepkaSolutions/ESP-Arduino-Internet-Basics/blob/main/ESP%20basics/1.How%20to%20program%20ESP/HelloWord/HelloWord.ino) simple example.
