@@ -1,3 +1,4 @@
+//Made by MatusRepkaSolutions - ESP-Arduino-Internet-Basics
 #include <WiFi.h>
 #include <HTTPClient.h>
 
@@ -7,7 +8,7 @@ const char* password = "your_WiFi_password";
 
 //path to the website
 String HOST_NAME = "your_site_domain"; //example: "https://github.com"
-String PATH_NAME = "/your_.php_page"; //example: "/MatusRepkaSolutions.php"
+String PATH_NAME = "/your_.php_page"; //example: "/MatusRepkaSolutions.php" - in our tutorial we use "GET.php"
 
 void setup() {
   Serial.begin(115200);
