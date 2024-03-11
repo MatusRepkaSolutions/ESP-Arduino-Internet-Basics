@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `ESP` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `MAC` varchar(50) NOT NULL,
+ `IP` varchar(50) NOT NULL,
+ PRIMARY KEY (`id`)
+);
