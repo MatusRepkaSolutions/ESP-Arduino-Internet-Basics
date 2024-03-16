@@ -3,13 +3,13 @@
 #include <HTTPClient.h>
 
 //data to connect to the WiFi network
-const char* ssid = "MatusR";
-const char* password = "matuskojenajlepsi";
+const char* ssid = "your_WiFi_name";
+const char* password = "your_WiFi_password";
 
 //path to the website
-String HOST_NAME = "https://makajos.000webhostapp.com/"; //example: "https://github.com"
-String PATH_NAME = "/update_data_LED.php"; //in our tutorial we use "update_data_LED.php"
-String PATH_NAME2 = "/LED_status.php"; //in our tutorial we use "LED_status.php"
+String HOST_NAME = "your_domain"; //example: "https://github.com"
+String PATH_NAME = "path1"; //in our tutorial we use "update_data_LED.php"
+String PATH_NAME2 = "path2"; //in our tutorial we use "LED_status.php"
 
 /* Time between each request.
 This determines the response time of your ESP to any change on the website,
