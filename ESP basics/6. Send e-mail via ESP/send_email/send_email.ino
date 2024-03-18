@@ -46,8 +46,9 @@ void loop() {
     // Specify content-type header
     http.addHeader("Content-Type", "application/x-www-form-urlencoded");
 
-    // Prepare data for POST request
-    String postData = "MAIL=repkamatut@gmail.com";
+    /* Prepare data for POST request - the email recipment.
+    Change this to address you want to send the e-mail to.*/
+    String postData = "MAIL=example@mail.com";
 
     // Send POST request
     int httpCode = http.POST(postData);
