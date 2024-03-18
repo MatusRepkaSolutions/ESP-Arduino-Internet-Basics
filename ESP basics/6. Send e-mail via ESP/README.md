@@ -30,4 +30,28 @@ String postData = "MAIL=example@mail.com";
 ### For `send.php` to work you need:
 1. Download the scr folder from [PHPMailer](https://github.com/PHPMailer/PHPMailer), it is also included in our repository [here](https://github.com/MatusRepkaSolutions/ESP-Arduino-Internet-Basics/tree/main/ESP%20basics/6.%20Send%20e-mail%20via%20ESP/PHPMailer).
    - The whole `scr` folder needs to be uploaded in the files of your website
-2.
+2. Changes in `send.php` code:
+  - Make sure this has the right path:
+```php
+require 'src/Exception.php'; 
+require 'src/PHPMailer.php'; 
+require 'src/SMTP.php'; 
+```
+- Change the body/subject/recipment:
+```php
+$mail->setFrom('sender_email', 'sender_name'); // Set the sender email and name (the email you want to send this from)
+$mail->addAddress($MAIL, 'reciever_name'); // Set the recipient
+$mail->Subject = 'Subject_text'; // Set the subject
+$mail->Body = 'Body_text'; // Set the body
+```
+3. Lastly you need to set up your SMTP
+- We used the g-mail SMTP, you need to get the app key for your g-mail account
+- To generate an app key you can use this [tutorial](https://knowledge.workspace.google.com/kb/how-to-create-app-passwords-000009237).
+- After you succefully generated the app-key you can change the last things in the code:
+```php
+$mail->Host = 'smtp.gmail.com'; // Set the SMTP server - depends on your SMTP provider
+$mail->Port = 587; // Set the SMTP port - depends on your SMTP provider
+$mail->Username = 'example@gmail.com'; // SMTP username - depends on your SMTP provider (in case of gmail - it's your email)
+$mail->Password = 'xXxXxXxXxXxXxXx'; // SMTP password - depends on your SMTP provider - you need to generate this
+```
+- You can use a different SMTP provider, but you need to change all these variables accordingly.
