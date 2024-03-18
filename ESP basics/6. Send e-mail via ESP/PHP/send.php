@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['MAIL'])) {
         $mail->Port = 587; // Set the SMTP port - depends on your SMTP provider
         $mail->SMTPSecure = 'tls'; // Set the encryption mechanism
         $mail->SMTPAuth = true; // Enable SMTP authentication
-        $mail->Username = 'repkamatut2@gmail.com'; // SMTP username - depends on your SMTP provider (in case of gmail - it's your email)
+        $mail->Username = 'example2@gmail.com'; // SMTP username - depends on your SMTP provider (in case of gmail - it's your email)
         $mail->Password = 'xXxXxXxXxXxXxXx'; // SMTP password - depends on your SMTP provider - you need to generate this
         $mail->setFrom('sender_email', 'sender_name'); // Set the sender email and name (the email you want to send this from)
         $mail->addAddress($MAIL, 'reciever_name'); // Set the recipient
